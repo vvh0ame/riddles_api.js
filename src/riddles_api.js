@@ -6,7 +6,7 @@ class RiddlesApi {
 		}
 	}
 
-	async getRandoRiddle() {
+	async getRandomRiddle() {
 		const response = await fetch(
 			`${this.api}/random`, {
 				method: "GET",
