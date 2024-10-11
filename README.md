@@ -7,7 +7,7 @@ async function main() {
 	const { RiddlesApi } = require("./riddles_api.js")
 	const riddlesApi = new RiddlesApi()
 	const randomRiddle = await riddlesApi.getRandomRiddle()
-	console.log(rahdomRiddle)
+	console.log(randomRiddle)
 }
 
 main()
